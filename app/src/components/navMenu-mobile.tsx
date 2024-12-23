@@ -33,11 +33,11 @@ export default function NavMenuMobile(){
             </li>
             <div className="border-t relative -left-4 border-white w-full"></div>
             <li className="py-8 w-screen">
-              <Link href={"/"}>About</Link>
+              <Link href={"/about"}>About</Link>
             </li>
             <div className="border-t relative -left-4 border-white w-full"></div>
             <li className="py-8 w-screen">
-              <Link href={"/"}>Contact</Link>
+              <Link href={"/contact"}>Contact</Link>
             </li>
             <div className="border-t relative -left-4 border-white w-full"></div>
           </ul>

@@ -15,10 +15,10 @@ export default function Header() {
                 <Link href={"/"}>Home</Link>
               </li>
               <li className="hover:text-log-blue-950">
-                <Link href={"/"}>About</Link>
+                <Link href={"/about"}>About</Link>
               </li>
               <li className="hover:text-log-blue-950">
-                <Link href={"/"}>Contact</Link>
+                <Link href={"/contact"}>Contact</Link>
               </li>
             </ul>
             <NavMenuMobile />
