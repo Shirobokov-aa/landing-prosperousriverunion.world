@@ -2,26 +2,20 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { IconMapPin, IconMail, IconPhone, IconClock } from "@tabler/icons-react";
+import { IconMapPin, IconMail, IconClock } from "@tabler/icons-react";
 
 const contactInfo = [
   {
     icon: <IconMapPin stroke={2} className="w-8 h-8" />,
     title: "Address",
-    info: "123 Example Street, New York, NY 10001",
+    info: "Unit 704C, 7/F, Block 3, Nan Fung Industrial City, 18 Tin Hau Road, Tuen  Mun, HONGKONG",
     description: "Head Office"
   },
   {
     icon: <IconMail stroke={2} className="w-8 h-8" />,
     title: "Email",
-    info: "info@company.com",
+    info: "info@prosperousriverunion.world",
     description: "Send us a message anytime!"
-  },
-  {
-    icon: <IconPhone stroke={2} className="w-8 h-8" />,
-    title: "Phone",
-    info: "+1 (555) 123-4567",
-    description: "Mon-Fri 9:00 AM - 6:00 PM"
   },
   {
     icon: <IconClock stroke={2} className="w-8 h-8" />,
@@ -63,7 +57,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {contactInfo.map((item, index) => (
               <div key={index} className="p-6 bg-white rounded-lg shadow-lg">
                 <div className="flex flex-col items-center text-center gap-4">

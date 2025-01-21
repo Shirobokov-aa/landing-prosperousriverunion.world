@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import NavMenuMobile from "./navMenu-mobile";
 
 export default function Header() {
@@ -6,8 +7,10 @@ export default function Header() {
     <header>
       <div className="max-w-6xl mx-auto px-16 py-5">
         <div className="flex items-center justify-between">
-          <div className="logo w-20 h-12">
-            <span className="text-3xl font-bold text-log-blue-900">Logo</span>
+          <div className="logo">
+          <Link href={"/"}>
+            <Image src="/img/logo-h.svg" alt="Logo" width={198} height={75} className="object-contain" />
+          </Link>
           </div>
           <nav>
             <ul className="lg:flex hidden gap-4 text-lg font-semibold">
