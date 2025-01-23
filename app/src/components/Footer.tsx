@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="w-full bg-log-blue-900">
-        <div className="max-w-6xl mx-auto px-16 py-5">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-5">
           <div className="flex lg:flex-row flex-col justify-between text-white py-10 gap-10">
             <div className="lg:max-w-[33%]">
             <Link href={"/"}>

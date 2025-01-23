@@ -78,8 +78,8 @@ export default function Main() {
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <div className="text-white flex flex-col gap-2">
-              <h3 className="text-2xl">CONNECTING YOUR WORLD WITH LOGISTICS SOLUTIONS</h3>
-              <h1 className="text-5xl font-bold leading-[62px]">
+              <h3 className="lg:text-2xl text-lg">CONNECTING YOUR WORLD WITH LOGISTICS SOLUTIONS</h3>
+              <h1 className="lg:text-5xl text-4xl font-bold lg:leading-[62px]">
                 Simplifying your business operations with innovative and cost-effective delivery services.
               </h1>
               <p className="text-xl">Reliable, efficient, and cost-effective logistics solutions.</p>
@@ -88,7 +88,7 @@ export default function Main() {
         </div>
       </section>
       <section>
-        <div className="max-w-6xl mx-auto px-16 py-20 ">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20 ">
           <div className="flex flex-col gap-2">
             <h2 className="text-3xl font-bold">Our Services</h2>
             <div className="w-[198px] h-2 bg-[linear-gradient(90.00deg,_rgb(17,_66,_107),rgb(17,_66,_107)_44.807%,rgba(17,_66,_107,_0)_93.51%)]"></div>
@@ -125,7 +125,7 @@ export default function Main() {
         </div>
       </section>
       <section>
-        <div className="max-w-6xl mx-auto px-16 py-20">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20">
           <div className="flex flex-col gap-2">
             <h2 className="text-3xl font-bold">How to Ship with Prosperous River Union Limited?</h2>
             <div className="max-w-[493px] w-full h-2 bg-[linear-gradient(90.00deg,_rgb(17,_66,_107),rgb(17,_66,_107)_44.807%,rgba(17,_66,_107,_0)_93.51%)]"></div>
@@ -145,13 +145,13 @@ export default function Main() {
       </section>
       <section>
         <div
-          className="relative max-w-[1440px] h-[543px] mx-auto bg-cover bg-center bg-no-repeat"
+          className="relative max-w-[1440px] lg:h-[543px] h-[1100px] mx-auto bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url("/img/bg-banner-3.png")' }}
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <div className="max-w-5xl flex flex-col items-center justify-center gap-10 text-white text-center">
               <div className="flex flex-col gap-10">
-                <h3 className="lg:text-4xl text-2xl lg:pt-0 pt-10 font-bold">Why Choose Us?</h3>
+                <h3 className="lg:text-4xl text-2xl  font-bold">Why Choose Us?</h3>
                 <div className="max-w-[934px] w-full h-2 bg-[linear-gradient(90.00deg,_rgba(255,_255,_255,_0),rgb(255,_255,_255)_26.787%,rgb(255,_255,_255)_62.827%,rgba(255,_255,_255,_0)_93.51%)]"></div>
                 <p className="text-xl">
                   Join us today and experience exceptional logistics services tailored to your business.
@@ -159,7 +159,7 @@ export default function Main() {
               </div>
               <div className="flex flex-wrap items-center gap-10 pt-10">
                 {privileges.map((privilege, index) => (
-                  <div key={index} className="w-[263px] flex flex-col items-center justify-center gap-4 ">
+                  <div key={index} className="lg:w-[263px] flex flex-col items-center justify-center gap-4 ">
                     <div className="text-white">{privilege.icone}</div>
                     <div className="font-semibold text-xl text-white">{privilege.title}</div>
                     <div className="text-lg text-white/70 text-center">{privilege.desc}</div>
@@ -170,7 +170,9 @@ export default function Main() {
           </div>
         </div>
       </section>
+      <div className="overflow-hidden">
       <Testimonails />
+      </div>
     </div>
   );
 }

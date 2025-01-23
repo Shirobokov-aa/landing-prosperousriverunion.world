@@ -71,7 +71,7 @@ export default function About() {
       </section>
 
       <section>
-        <div className="max-w-6xl mx-auto px-16 py-20">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20">
           <div className="flex flex-col gap-2">
             <h2 className="text-3xl font-bold">Our Story</h2>
             <div className="w-[198px] h-2 bg-[linear-gradient(90.00deg,_rgb(17,_66,_107),rgb(17,_66,_107)_44.807%,rgba(17,_66,_107,_0)_93.51%)]"></div>
@@ -93,7 +93,7 @@ export default function About() {
       </section>
 
       <section className="bg-log-blue-900 text-white">
-        <div className="max-w-6xl mx-auto px-16 py-20">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
             {stats.map((stat, index) => (
               <div key={index} className="flex flex-col items-center text-center gap-4">
@@ -107,7 +107,7 @@ export default function About() {
       </section>
 
       <section>
-        <div className="max-w-6xl mx-auto px-16 py-20">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20">
           <div className="flex flex-col gap-2">
             <h2 className="text-3xl font-bold">Our Values</h2>
             <div className="w-[198px] h-2 bg-[linear-gradient(90.00deg,_rgb(17,_66,_107),rgb(17,_66,_107)_44.807%,rgba(17,_66,_107,_0)_93.51%)]"></div>

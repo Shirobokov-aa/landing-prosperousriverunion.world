@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Prosperous River Union Limited",
-  description: "Упрощение бизнес-операций с помощью инновационных и экономичных услуг доставки.",
+  description: "Simplifying your business operations with innovative and cost-effective delivery services.",
 };
 
 export default function RootLayout({

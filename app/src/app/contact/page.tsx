@@ -46,7 +46,7 @@ export default function Contact() {
       </section>
 
       <section>
-        <div className="max-w-6xl mx-auto px-16 py-20">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20">
           <div className="flex flex-col gap-2 mb-16">
             <h2 className="text-3xl font-bold">About Company</h2>
             <div className="w-[198px] h-2 bg-[linear-gradient(90.00deg,_rgb(17,_66,_107),rgb(17,_66,_107)_44.807%,rgba(17,_66,_107,_0)_93.51%)]"></div>
@@ -73,7 +73,7 @@ export default function Contact() {
       </section>
 
       <section className="bg-log-blue-900 text-white">
-        <div className="max-w-6xl mx-auto px-16 py-20">
+        <div className="max-w-6xl mx-auto lg:px-16 px-8 py-20">
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-6">Need Assistance?</h2>
             <p className="text-xl">
